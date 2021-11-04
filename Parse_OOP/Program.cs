@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using ParseResult = System.Tuple<Parse_OOP.Expression, int>;
 
-//
+//проверочка
 namespace Parse_OOP
 {
     class Program
