@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\София\\.nuget\\packages\\": {}
+    "C:\\Users\\Nikita\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\София\\TriLab\\Parse_OOP\\Parse_OOP.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj",
       "projectName": "Parse_OOP",
-      "projectPath": "C:\\Users\\София\\TriLab\\Parse_OOP\\Parse_OOP.csproj",
-      "packagesPath": "C:\\Users\\София\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\София\\TriLab\\Parse_OOP\\obj\\",
+      "projectPath": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj",
+      "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\София\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
