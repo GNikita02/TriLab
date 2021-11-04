@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\source\\repos\\Parse_OOP\\Parse_OOP\\Parse_OOP.csproj": {}
+    "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\source\\repos\\Parse_OOP\\Parse_OOP\\Parse_OOP.csproj": {
+    "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\source\\repos\\Parse_OOP\\Parse_OOP\\Parse_OOP.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj",
         "projectName": "Parse_OOP",
-        "projectPath": "C:\\Users\\Nikita\\source\\repos\\Parse_OOP\\Parse_OOP\\Parse_OOP.csproj",
+        "projectPath": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\Parse_OOP.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\source\\repos\\Parse_OOP\\Parse_OOP\\obj\\",
+        "outputPath": "C:\\Users\\Nikita\\MyLabInGitHub\\Parse_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
