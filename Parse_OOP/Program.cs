@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using ParseResult = System.Tuple<Parse_OOP.Expression, int>;
 
-//проверочка
+//ветка НЕ главного разработчика, но тоже не трогать пжшка (всех лавки)
 namespace Parse_OOP
 {
     // калькулятор
