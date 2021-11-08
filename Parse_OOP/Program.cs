@@ -3,11 +3,16 @@ using System.Linq;
 using System.Collections.Generic;
 using ParseResult = System.Tuple<Parse_OOP.Expression, int>;
 
+<<<<<<< HEAD
 //ветка НЕ главного разработчика, но тоже не трогать пжшка (всех лавки)
 //       777
+=======
+//Это Ветка главного разработчика не трогать
+// dsadada
+>>>>>>> branchN
 namespace Parse_OOP
 {
-    // калькулятор
+    // калькулятор 
     class Program
     {
         public static Dictionary<string, double> constants = new Dictionary<string, double>();
