@@ -3,10 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using ParseResult = System.Tuple<Parse_OOP.Expression, int>;
 
-<<<<<<< HEAD
-//ветка НЕ главного разработчика, но тоже не трогать пжшка (всех лавки)
-//       777
-=======
+
 //Это Ветка главного разработчика не трогать
 // dsadada
 >>>>>>> branchN
