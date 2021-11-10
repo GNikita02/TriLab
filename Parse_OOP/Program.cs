@@ -6,6 +6,7 @@ using ParseResult = System.Tuple<Parse_OOP.Expression, int>;
 
 // изменена система навигации 
 // добавлена возможность просмотра списка констант
+// добавлена возможность удалять константы
 
 namespace Parse_OOP
 {
@@ -69,6 +70,7 @@ namespace Parse_OOP
             Console.Clear();
             Console.WriteLine("1 - Вывести список переменных");
             Console.WriteLine("2 - Создать новую переменную (изменить старую)");
+            Console.WriteLine("3 - Удаление переменных");
 
             Console.WriteLine("\nEsc - назад");
             ConsoleKey ki = Console.ReadKey(true).Key;
@@ -79,6 +81,10 @@ namespace Parse_OOP
             else if (ki == ConsoleKey.D2 || ki == ConsoleKey.NumPad2)
             {
                 ChangeDictionary();
+            }
+            else if (ki == ConsoleKey.D3 || ki == ConsoleKey.NumPad3)
+            {
+                RemoveConstant();
             }
             if (ki == ConsoleKey.Enter)
             {
@@ -151,6 +157,35 @@ namespace Parse_OOP
 
         }
 
+        static void RemoveConstant()
+        {
+            Console.Clear();
+            Console.WriteLine($"Введите имя переменной которую хотите удалить");
+            string key = new string(Console.ReadLine());
+            if (constants.ContainsKey(key))
+            {
+                constants.Remove(key);
+                Console.WriteLine($"{key} был удален из списка констант");
+                
+            }
+            else
+            {
+                Console.WriteLine($"{key} не содержиться в списке констант");
+            }
+
+            Console.WriteLine("\nEnter - повторить \nEsc - назад");
+            ConsoleKey ki = Console.ReadKey(true).Key;
+            if (ki == ConsoleKey.Enter)
+            {
+                RemoveConstant();
+            }
+            else if (ki == ConsoleKey.Escape)
+            {
+                DictionaryMenu();
+            }
+
+
+        }
         //static void test_expr(string expr, double expected)
         //{
         //    ExpressionCalculator calculator = new ExpressionCalculator(expr);
